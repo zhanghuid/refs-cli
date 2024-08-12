@@ -1,14 +1,14 @@
 {
-  "name": "refs-cli",
-  "version": "1.5.5",
+  "name": "huid-reference-cli",
+  "version": "0.0.3",
   "description": "Command line tool to generate Quick Reference website.",
-  "homepage": "https://jaywcjlove.github.io/refs-cli/",
+  "homepage": "https://github.com/zhanghuid/refs-cli",
   "funding": "https://jaywcjlove.github.io/#/sponsor",
   "author": "jaywcjlove",
   "license": "MIT",
   "type": "module",
   "bin": {
-    "refs-cli": "./lib/cli.js"
+    "huid-reference-cli": "lib/cli.js"
   },
   "scripts": {
     "prepare": "husky",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaywcjlove/refs-cli.git"
+    "url": "https://github.com/zhanghuid/refs-cli.git"
   },
   "keywords": [
     "reference-cli",

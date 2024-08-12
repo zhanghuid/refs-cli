@@ -118,6 +118,8 @@ export function create(str = '', options: Options = {}) {
         if (resultHomeCard[options.filename].tags) {
           detailData.tags = resultHomeCard[options.filename].tags;
         }
+      } else {
+        detailData.name = options.filename;
       }
       tooltips(node, index, parent);
       if (node.type === 'element') {
