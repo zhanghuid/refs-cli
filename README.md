@@ -58,7 +58,7 @@ Example:
   $ huid-reference-cli --output website
   $ huid-reference-cli
 
-huid-reference-cli@v0.0.1
+huid-reference-cli@v0.0.5
 ```
 
 ## Config

@@ -1,6 +1,6 @@
 {
   "name": "huid-reference-cli",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Command line tool to generate Quick Reference website.",
   "homepage": "https://github.com/zhanghuid/refs-cli",
   "funding": "https://jaywcjlove.github.io/#/sponsor",
