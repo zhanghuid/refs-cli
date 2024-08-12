@@ -39,7 +39,7 @@ Command line tool to generate `Quick Reference` website. This is also a tool sep
 ## Command Help
 
 ```bash
-Usage: refs-cli [output-dir] [--help|h]
+Usage: huid-reference-cli [output-dir] [--help|h]
 
   Displays help information.
 
@@ -53,12 +53,12 @@ Options:
 
 Example:
 
-  $ npx refs-cli
-  $ refs-cli --watch
-  $ refs-cli --output website
-  $ refs-cli
+  $ npx huid-reference-cli
+  $ huid-reference-cli --watch
+  $ huid-reference-cli --output website
+  $ huid-reference-cli
 
-refs-cli@v0.0.1
+huid-reference-cli@v0.0.5
 ```
 
 ## Config
