@@ -1,6 +1,6 @@
 {
   "name": "huid-reference-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Command line tool to generate Quick Reference website.",
   "homepage": "https://github.com/zhanghuid/refs-cli",
   "funding": "https://jaywcjlove.github.io/#/sponsor",
@@ -17,7 +17,8 @@
     "watch": "tsc --watch",
     "help": "node ./lib/cli.js --help",
     "start": "node ./lib/cli.js -w",
-    "doc": "node ./lib/cli.js"
+    "doc": "node ./lib/cli.js",
+    "release": "bumpp --no-tag -c 'auto' --yes"
   },
   "repository": {
     "type": "git",
@@ -42,6 +43,7 @@
     "@uiw/formatter": "^2.0.0",
     "@wcj/markdown-to-html": "^2.2.0",
     "auto-config-loader": "^1.7.1",
+    "bumpp": "^9.8.1",
     "chokidar": "^3.5.3",
     "dotenv": "^16.0.3",
     "fs-extra": "^11.0.0",
